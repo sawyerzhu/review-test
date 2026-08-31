@@ -27,4 +27,4 @@ jobs:
 
     # 4. 运行你的自定义审核脚本
     - name: Run custom python reviewer
-      run: python review_code.py
+      run: python .github/workflows/review_code.py
